@@ -22,7 +22,7 @@ const didResolver = new Resolver(ethrDidResolver);
 
 (async () => {
   const doc = await didResolver.resolve(
-    'did:ethr:goerli:0xf3beac30c498d9e26865f34fcaa57dbb935b0d74',
+    'did:ethr:goerli:0x4b2a8428c6Ed76F2BF4c039B96Aca9619b8231BD',
   );
   console.log(JSON.stringify(doc, null, 2));
 })();

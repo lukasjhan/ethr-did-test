@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsx index.ts"
+    "test": "tsx create.ts",
+    "resolve": "tsx resolve.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "did-resolver": "^4.1.0",
+    "ethr-did": "^3.0.21",
     "ethr-did-resolver": "^10.1.5",
     "tsx": "^4.11.0"
   }
