@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tsx create.ts",
+    "create": "tsx create.ts",
+    "update": "tsx update.ts",
     "resolve": "tsx resolve.ts"
   },
   "keywords": [],
@@ -12,8 +13,10 @@
   "license": "ISC",
   "dependencies": {
     "did-resolver": "^4.1.0",
+    "ethers": "^6.12.1",
     "ethr-did": "^3.0.21",
     "ethr-did-resolver": "^10.1.5",
-    "tsx": "^4.11.0"
+    "tsx": "^4.11.0",
+    "web3": "^4.9.0"
   }
 }
