@@ -12,7 +12,7 @@ import { EthrDID } from 'ethr-did';
   const ethrDid = new EthrDID({
     identifier: keypair.identifier,
     privateKey: keypair.privateKey,
-    rpcUrl: 'http://localhost:8545', // server address
+    rpcUrl: 'http://localhost:9545', // server address
     registry: '0x09CFE7f56C3d25bFdd104ded135402BFaeeE438b', // contract address
     chainNameOrId,
   });
